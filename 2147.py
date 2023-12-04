@@ -1,5 +1,6 @@
 class Solution:
     def numberOfWays(self, corridor: str) -> int:
+      
         cs=corridor.count("S")
         if not cs or cs%2:
           return 0
